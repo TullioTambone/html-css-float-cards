@@ -1,0 +1,25 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+h1{
+    color: red;
+    font-size: 50px;
+}
+
+.container{
+    text-align: center;
+    width: 80%;
+    margin: 5% auto;
+    border: 1px solid red;
+}
+
+.container > p{
+    margin-top: 5%;
+}
