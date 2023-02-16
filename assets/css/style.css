@@ -13,13 +13,72 @@ h1{
     font-size: 50px;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/*main*/
+/*creazione container generale*/
 .container{
     text-align: center;
     width: 80%;
     margin: 5% auto;
-    border: 1px solid red;
+
 }
 
 .container > p{
     margin-top: 5%;
+}
+
+.box{
+    width: 80%;
+    margin: 2% auto;
+
+}
+
+.card{
+    float: left;
+    width: 32%;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+.center{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.immagine{
+    float: left;
+    height: 100px;
+}
+img{
+    height: 100px;
+}
+.stats{
+    float: left;
+    text-align: left;
+    font-size: 10px;
+}
+
+.stats a{
+    text-decoration:none;
+    color: rgb(0, 119, 255);
+    padding-left: 3%;
+    font-size: large;
+}
+
+.stats h2{
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: large;
+}
+
+.stats p{
+    padding-top: 5px;
+    padding: 3%;
+    font-size: 150%;
 }
